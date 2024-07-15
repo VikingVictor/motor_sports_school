@@ -1,0 +1,593 @@
+.sp-menu-content { /*custom*/   
+    background: #018FD1;
+}
+
+@media (max-width: 1312px) {
+    .u-inner {
+        width: 94vw;
+        margin: 0 auto;
+    }
+    .sect_fv{       
+        background-size: 100vw calc(100vh - 6.94vw);
+    }
+    .sect_fv .head .logo_part .logo_img{
+        width: 27.43vw;
+    }
+    .main_menu .menu_bar{       
+        height: 3.33vw;
+    }
+    .main_menu .menu_bar li a{
+        padding: 0 3.89vw;       
+        font-size: 1.39vw;        
+    }
+    .sect_fv .head .button_part .left_btn,
+    .sect_fv .head .button_part .right_btn {            
+        height: 4.17vw;      
+        font-size: 1.04vw;    
+    }
+    .sect_fv .head .button_part .left_btn{      
+        width: 12.01vw;
+    }
+    .sect_fv .head .button_part .right_btn{               
+        width:17.43vw;        
+    }
+    .main_menu .item .link_btn{
+        font-size: 1.38vw;
+    }
+    .main_menu .menu_bar li a .icon {
+        margin-top: 1.1vw;
+    }   
+
+    .swiper-button-next {
+        top: 56px;
+        right: 7.91vw;
+        width: 3.54vw;
+        height: 3.54vw;
+        border-radius: 2vw;
+    }
+
+    .swiper-button-prev {
+        top: 56px;
+        right: 18.95vw;
+        width: 3.54vw;
+        height: 3.54vw;
+        border-radius: 2vw;
+    }
+
+    .fs_slider .favor_slide-pagination{
+        right: 13.33vw;
+        top: 40px;
+        font-size: 1.66vw;
+    }     
+
+    .favor02 .ct_lg_btn {
+        width: 34.09vw;
+        height: 6.11vw;     
+        font-size: 1.66vw;
+    }
+
+    .favor03 .bottom_wrap .left .ct_lg_btn {
+        margin-top: 3.33vw;
+        width: 28.88vw;
+        height: 6.11vw;
+        border-radius: 3.5vw;
+        font-size: 1.66vw;
+    }
+
+    .contact .btn_panel .left_btn, 
+    .contact .btn_panel .right_btn{
+        width: 33.95vw;
+        height: 6.11vw;
+    }
+
+    .contact .btn_panel .items a.white {       
+        margin-right: 1.52vw;
+        font-size: 1.66vw;
+    }
+  
+    
+}
+
+@media (max-width: 1100px) {
+    .main_menu .menu_bar li.item a .title {
+        flex-direction: column;
+    }
+    .main_menu .item .link_btn .number {
+        margin-right: 0;
+        margin-left: 3px;
+    }
+
+}
+@media (max-width: 768px) { 
+    .sect_fv{
+        /* justify-content: flex-end; */
+    }  
+    .sect_fv .head {
+        top: 4.26vw;
+        padding-left:4.26vw;
+        padding-right: 0;
+    }
+    .sect_fv .sect_fv_content {
+        width: 100%;
+        height: calc(100vh - 23vw - 11.7vw - 11vw);
+        background-image: url("../img/sp_fv_bg.png");
+        background-size: cover;
+        justify-content: flex-end;
+        background-position: top center;
+    }
+    .sect_fv .head .logo_part .logo_img {
+        max-width: 66.13vw;
+        width: 52.27vw;
+        height: 8.27vw;
+    }
+    .sect_fv .text01 {
+        font-size: 10.13vw;
+        font-weight: 900;
+        line-height: 1.3;
+        margin-top: 0;
+        margin-left: 4.2vw;
+        margin-bottom: 1.5vh;
+    }    
+    .sect_fv .text01 span{
+        font-size: 8.53vw;
+    }
+    .sect_fv .text02 {
+        font-size: 4vw; 
+        height : 12.80vw;       
+        width: 77.87vw;
+        margin-left: 4.2vw;
+        margin-bottom:5vh;
+    }   
+    .sect_fv .main_menu {
+        position: absolute;
+        bottom: calc(11.7vw + 11vw);       
+        height:23vw; 
+        z-index: 2;       
+    }
+    .button_part {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100vw;
+        height: 11.73vw;  
+        z-index: 100;        
+        /* display: none; */
+        display: flex;
+        animation: slide_up_menu 0.5s ease; animation: slide_up_menu 0.5s ease;
+        -webkit-animation: slide_up_menu 0.5s ease; animation: slide_up_menu 0.5s ease;
+    }
+    @-webkit-keyframes slide_up_menu {
+        0% { bottom:-11.7vw; }
+        100% { bottom:0px; }
+    }
+    @keyframes slide_up_menu {
+        0% { bottom:-11.7vw; }
+        100% { bottom:0px; }
+    }
+
+    .sect_fv .head .button_part .left_btn, .sect_fv .head .button_part .right_btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        line-height: 1.2;
+        height: 100%;
+    }
+    .sect_fv .head .button_part .left_btn,
+    .sect_fv .head .button_part .right_btn {
+         border-radius: 0;
+         font-size: 3.2vw;
+         border:none;
+     }
+     .sect_fv .head .button_part .left_btn{
+        width: 41.6vw;
+        margin-right:0px;
+    }
+    .sect_fv .head .button_part .right_btn{
+        width: calc( 100vw - 41.6vw);
+    }
+
+    .sect_fv .main_menu .menu_bar li {
+        border-right: 1px solid #fff;
+    }
+    .sect_fv .main_menu .menu_bar li:last-child {
+        border-right: none;
+    }
+    .sect_fv .main_menu .menu_bar li a {
+        padding: 0;
+    }
+    .main_menu .menu_bar li a .icon{
+        margin-top: 2vw;
+    }
+    .sect_fv .main_menu .item .link_btn {
+        font-size: 2.93vw;
+        padding-left:4.27vw;
+        padding-right: 4.27vw;
+        padding-top: 0px;
+        padding-bottom:0px;
+    }
+    .main_menu .menu_bar li a {
+        padding: 0 5.3vw;
+    }
+    .main_menu .menu_bar .item .title{        
+        flex-direction: column;
+        text-align: center;    
+        line-height: 1.5;   
+    }
+    
+    .favor01{
+        margin-top: -15vw;
+        position: relative;
+        margin-top: -11.7vw;
+        padding-left: 4.27vw;
+        z-index: 1;
+        
+    }
+    .favor01 .fs_slider_wraper{
+        padding-left: 0;
+    }
+
+    .favor01 .sect_title01 {
+        width: 39.47vw;
+       
+        margin-top: 8vw;
+        margin-bottom: 6.40vw; 
+        margin-left: 0;      
+    }
+    .fs_slider_wraper{
+        padding-left: 4.3vw;
+
+    } 
+    .fs_slider .swiper-slide{
+        padding: 4.3vw;       
+    }
+    .swiper-button-next, .swiper-button-prev {
+        display: none;
+    }
+    .fs_slider .favor_slide-pagination {
+        display: none;
+    }
+    .fs_slider .swiper-slide .slide_img {        
+        margin-bottom : 4.3vw;
+
+    }
+    .fs_slider .swiper-slide .title span{ 
+        font-size: 4.8vw;
+        margin-bottom: 3.7vw;
+    }
+    #charm_slider .swiper-slide .title::after {       
+        height: 10px;       
+        bottom: -2px;     
+    }
+    .fs_slider .swiper-slide .desc{
+        font-size: 4vw;
+    }
+    .fs_slider .swiper-slide .bottom_img {
+        width: 21.6vw;
+        height: auto;
+        right: 4.8vw;
+        bottom: 3.5vw;
+    }
+
+    .favor02{
+       padding-top: 56px;
+    }
+    .sect_title02 {
+        margin-left: 4.27vw;
+        margin-bottom:6.4vw ;        
+        width: 76.8vw;
+    }   
+
+    #course_slide .swiper-slide{
+        padding: 0;
+        border-radius:0;
+        background: transparent;
+        position: relative;
+        height: unset;
+    }
+        #course_slide .swiper-slide .slide_img {
+            margin-bottom: 0;
+            position: relative;
+            z-index: 1;
+        }
+        #course_slide .swiper-slide .title {
+            margin-top: -14vw;            
+            padding-left: 4.27vw;
+            margin-bottom: 4.27vw;                          
+        }
+        #course_slide .swiper-slide .title_small {
+            background-color: #fff;
+            padding: 0.5vw 3.2vw 0 3.2vw;
+            width: fit-content;
+            position: relative;
+            z-index: 2;
+            font-size: 3.2vw;
+            font-weight: 700; 
+            line-height: 1.8;                
+        }
+        #course_slide .swiper-slide .title_big {
+            background-color: #fff;
+            padding: 0 3.2vw 0.8vw 3.2vw;
+            width: fit-content;
+            position: relative;
+            z-index: 2;
+            font-size: 4.8vw;
+            font-weight: 700; 
+            line-height: 1.8;                
+        }             
+        #course_slide .swiper-slide .desc {
+            padding-left: 4.27vw;
+            padding-right: 1.11vw;
+            font-size: 3.7vw;
+            line-height: 1.8;
+            color: #fff;
+        }
+        #course_slide .swiper-slide .desc span{
+            font-size: 3.5vw;
+        }
+    .btn_stars {        
+        background-color: #000;
+        padding-top: 14.7vw;
+        padding-bottom: 12.8vw;
+        display: flex;
+        justify-content: center;
+    }
+                  
+    .favor02 .ct_lg_btn{
+        max-width: 100%;
+        width: 88.0vw;
+        height: 18.1vw;        
+        font-size: 4.3vw;
+    }        
+   
+    .favor03{
+        margin-top: 0;
+        padding-top: 14.93vw;
+        position: relative;
+    
+    }
+    .sec3_top_triangle{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width:  17.33vw;
+        height: 36.27vw; 
+    }
+     .sect_title03 {
+        margin-top: 0;
+        margin-left: 4.27vw;
+        margin-bottom:10.67vw ;        
+        width: 91.47vw;
+       
+    }
+    .favor03 .bottom_wrap {
+        flex-direction: column-reverse;
+    }    
+    .favor03 .bottom_wrap .left,
+    .favor03 .bottom_wrap .right{
+        width: 100%;     
+    }
+    .favor03 .bottom_wrap .left{  
+        padding-left: 4.27vw;
+        padding-right: 4.27vw;        
+    }
+    .favor03 .bottom_wrap .left{  
+        padding-left: 0;
+        padding-right:0;        
+    }
+    .favor03 .bottom_wrap .right .title_img{
+        width: 71.47vw ;
+        height: 9.33vw;
+        margin-bottom: 2.22vw;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .favor03 .bottom_wrap .right .text01{
+        font-size: 4.00vw;              
+    }
+    .favor03 .bottom_wrap .right .text02_wrap{
+        padding: 4.27vw;       
+        margin-bottom: 11.2vw;
+        width: 100%;
+    }
+    .favor03 .bottom_wrap .right .text02_wrap .title_rect{
+        margin-bottom: 2.67vw;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .favor03 .bottom_wrap .right .text02_wrap .title_rect span{
+        font-size: 5.33vw;     
+        padding: 2px 5px;
+    }
+    
+    .favor03 .text02_wrap .text_item{          
+        font-size: 4vw;
+       
+    }
+    .favor03 .text02_wrap .text_item .num{       
+        font-size: 3vw;
+        width: 4vw;
+        height: 4vw;
+        min-width: 4vw;
+        min-height: 4vw;
+        margin-right: 0.7vw;      
+        top: 1.5vw;
+    }
+    .favor03 .text02_wrap .text_item .text::after{
+        position: absolute;
+        left: 0;
+        top: 5vw;      
+        width: 100%;
+        height: 1.69vw;
+    }      
+    .favor03 .bottom_wrap .right .ct_lg_btn{ 
+        margin-left: auto;
+        margin-right: auto;
+        width: 91.47vw;
+        height: 18.13vw;       
+        font-size: 4.27vw;
+        border:1px solid #f4f4f4;
+        margin-bottom: 15.2vw;
+    }
+    .favor03 .bottom_wrap .ct_lg_btn .icon{ 
+        margin-left: 3.2vw;
+    }
+    .favor03 .bottom_triangle{
+        position: absolute;
+        bottom:0 ;
+        right: 0;
+        width: 24.72vw;
+        height: 47.22vw;
+    }     
+    
+.favor04{
+    padding-top:14.93vw;
+    padding-left: 4.27vw;
+    padding-right: 4.27vw;
+    padding-bottom: 10.67vw;
+}
+    .sect_title04{
+        margin-bottom: 8.53vw;
+        width: 39.47vw;
+      
+    }
+    .favor04 .rect_items {
+        flex-direction:column; 
+    }
+    .favor04 .rect_items .item {               
+        width: 100%;
+        height: 38.67vw;
+        margin-right: 0;
+        margin-bottom: 4.27vw;       
+    } 
+    .favor04 .rect_items .item .icon{
+        width: 11.73vw;
+        height: 12vw;
+        margin-bottom: 2.93vw;
+    }
+    .favor04 .rect_items .item .title{
+        font-size: 4.8vw;
+    }
+    .favor04 .rect_items .item img.triangle {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 17.87vw;
+        height: 33.33vw;
+        margin-bottom:0;
+    }   
+      .contact .btn_panel .right_triangle {    
+        right: 0;
+        bottom: 0;   
+    }              
+   
+    .contact .btn_panel{           
+        background-image: url("../img/contact_btn_panel_bg_sp.png");
+        background-size: cover;
+        height: 98.13vw;
+        padding-bottom: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;        
+    }
+        
+    .contact .btn_panel .items{       
+        flex-direction: column;        
+        width: fit-content;
+        position: relative;
+        z-index: 2;
+    }    
+    .contact .btn_panel .title{
+        font-size: 6.40vw;
+        margin-bottom: 8.53vw;       
+    }
+    .contact .btn_panel .title .three_dots {
+        position: absolute;
+        top: -6.39vw;
+        right: -9.07vw;
+    }
+        
+    .contact .btn_panel .items a.white{
+        width: 84.27vw;
+        height: 19.2vw;        
+        font-size: 4.27vw;
+        margin-bottom: 4.27vw;
+        margin-right: 0;
+        position: relative;        
+    }
+        
+    .contact .btn_panel .items a.white::after{
+        font-size:4vw;
+        position: absolute;
+        right: 7vw; 
+        top: 7vw;       
+    }
+    .contact .btn_panel .items a.white:last-child{
+        margin-bottom:0;
+    }     
+    .contact .btn_panel .items a .icon_btn {
+        position: absolute;
+        right: 6vw;
+        width: 2.1vw;
+    }
+        
+    .contact .googlemap iframe{
+        height:80vw ;
+    }
+        
+    .social_links{   
+        margin-top: 12.8vw;
+        margin-bottom:12.8vw;
+        width: 100%;
+        padding-left: 5.33vw;
+        padding-right: 5.33vw;
+    }          
+    .social_links .link_col .name{
+        display: none;
+    }
+    .social_links .link_col{
+        margin: 0;
+    }
+        
+    .social_links .link_col .icon{
+        width: 12.8vw;
+    }       
+
+    .favor01,.favor02,.favor03,.favor04 {
+        background-image: url("../img/sect_bg_sp.png");       
+    }
+    .footer {
+        position: relative;
+        padding-bottom: 12vw;
+    }
+    .footer .copy{
+        font-size: 2.7vw ;
+    }   
+
+            
+}
+@media (max-width: 375px) {
+    #course_slide .swiper-slide .title_small {                
+        font-size: 3.2vw;                     
+    }
+    #course_slide .swiper-slide .title_big {
+        padding: 0 3.2vw 0.8vw 3.2vw;
+        font-size: 4.8vw;               
+    }             
+    #course_slide .swiper-slide .desc {        
+        font-size: 3.73vw;       
+    }
+    #course_slide .swiper-slide .desc span{
+        font-size: 3.47vw;
+    }
+    .btn_stars {        
+        margin-top: -60vw;
+        padding-top: 76vw;
+        padding-bottom: 12.80vw;
+       
+    }  
+
+
+}
